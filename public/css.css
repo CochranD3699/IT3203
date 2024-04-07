@@ -1,0 +1,293 @@
+.tenor-sans-regular {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* applies to all pages */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navLink {
+    background-color: black;
+    width: 150px;
+    padding-left: 20px;
+
+    justify-content: center;
+    align-items: center; 
+}
+
+.navbar .navActive{
+    background-color: white;
+    width: 150px;
+    padding: 24px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navbar .navLink a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar .navActive a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar .navLink :hover {
+    text-decoration: none;
+    background-color: black;   
+
+}
+
+.navbar .navLink a:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    
+    display:flex;
+    height: 65px;
+    width: 150px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navbar .navActive :hover {
+    text-decoration: none;
+    background-color: black;   
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navbar .navActive a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+header {
+     font-family: 'Tenor Sans',serif;    
+     letter-spacing: 1px;
+     text-align: center;
+     color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+ 
+ 
+}
+h1{
+    padding: 25px 10px;
+    font-size: 25px;   
+}
+p{
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 1px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    padding: 15px;
+}
+
+/* applies to specific pages uniquely named if needed*/
+.block {
+    width: 500px;
+    height: 500px; 
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    font-family: Papyrus;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    visibility: visible;
+}
+
+.box p1{
+    font-family: Papyrus;
+    font-weight: bold;
+    visibility: hidden;   
+}
+
+p2{
+    font-family: Dancing Script;
+    font-size: 55px;
+
+}
+
+.movie{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    visibility: hidden;
+    max-width: 500px;
+ 
+}
+
+
+.movie video {    
+    max-width: 85%;
+}
+
+/* about page styling */
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start; 
+
+    padding-left: 20px;
+    padding-right: 5px;
+   
+}
+.paragraphs{
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: left;
+    color: black;
+    padding: 2px 2px;
+    font-family: 'Tenor Sans',serif;    
+    letter-spacing: 1px;
+}
+
+.pictures img {    
+    max-width: 100%;
+}
+
+button {
+    background-color: teal;
+    border-width: 5px;
+    padding: 4px 4px;
+    font-size: 25px;
+    color: white;
+}
+/* contact page styling */
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.header2{
+    height: 100px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    background-color: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+section{
+    font-family: "Manrope", sans-serif;
+    font-stretch: expanded;
+    background-color: white;
+    
+
+}
+
+
+form {
+    font-weight: bold;
+    font-size: 25px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+label {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: whitesmoke;
+}
+
+textarea {
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    height: 100px;
+    width: 400px;
+    background-color: whitesmoke;
+}
+
+
+button {
+    background-color: teal;
+    border-width: 5px;
+    padding: 2px 2px;
+    font-size: 25px;
+}
+
+
